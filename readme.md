@@ -11,3 +11,7 @@
 1. `adb devices` 
 2. `ionic capacitor run android --livereload --external`
 3. `ionic capacitor run android --livereload --external --public-host=192.168.0.32`
+4. `ionic cap open android`
+5. `ionic capacitor build`
+6. `ionic capacitor build android`
+7. `ionic capacitor build ios`
