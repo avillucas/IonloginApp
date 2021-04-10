@@ -13,5 +13,5 @@
 3. `ionic capacitor run android --livereload --external --public-host=192.168.0.32`
 4. `ionic cap open android`
 5. `ionic capacitor build`
-6. `ionic capacitor build android`
+6. `ionic capacitor build android` el apk queda en android/app/build/outputs/apk/debug
 7. `ionic capacitor build ios`

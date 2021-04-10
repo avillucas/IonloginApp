@@ -8,7 +8,7 @@
   <form [formGroup]="ionicRegister" (ngSubmit)="register()" novalidate>
     <div class="input-group">
       <ion-item>
-        <ion-input formControlName="username" type="email" placeholder="Email" ngModel required></ion-input>
+        <ion-input formControlName="username" type="email" placeholder="Email"  required></ion-input>
       </ion-item>
       <!-- Error messages -->
       <!-- user error messages -->
@@ -20,7 +20,7 @@
     </div>
     <div class="input-group">
       <ion-item>
-        <ion-input formControlName="password" type="password" placeholder="Password" ngModel required></ion-input>
+        <ion-input formControlName="password" type="password" placeholder="Password"  required></ion-input>
       </ion-item>
       <!-- Error messages -->
       <!-- password Error messages -->
@@ -31,7 +31,7 @@
     </div>
     <div class="input-group">
       <ion-item>
-        <ion-input formControlName="confirm" type="password" placeholder="Repetir Password" ngModel required
+        <ion-input formControlName="confirm" type="password" placeholder="Repetir Password"  required
           (keyup)="checkPassSame()"></ion-input>
       </ion-item>
       <!-- Error messages -->
